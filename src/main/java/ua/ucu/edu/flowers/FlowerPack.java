@@ -16,6 +16,10 @@ public class FlowerPack {
 
     }
 
+    public boolean equals(FlowerPack flowerPack) {
+        return flower.equals(flowerPack.getFlower());
+    }
+
     double getPrice() {
         return flower.getPrice() * count;
     }

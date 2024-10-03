@@ -24,6 +24,10 @@ public class Flower {
         price = flower.price;
     }
 
+    public boolean equals(Flower flower) {
+        return (type == flower.type) && (color == flower.color);
+    }
+
     public String getColor() {
         return color.toString();
     }

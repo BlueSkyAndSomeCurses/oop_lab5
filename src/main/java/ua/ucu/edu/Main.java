@@ -4,9 +4,12 @@ import ua.ucu.edu.flowers.Flower;
 import ua.ucu.edu.flowers.FlowerColor;
 import ua.ucu.edu.flowers.FlowerPack;
 import ua.ucu.edu.flowers.FlowerType;
+import ua.ucu.edu.flowers.Store;
 
 public class Main {
     public static void main(String[] args) {
+
+        Store store = new Store();
 
         Flower flower = new Flower(FlowerType.ROSE, 100, FlowerColor.RED, 400);
         Flower flower2 = new Flower(FlowerType.LILYOFTHEVALLEY, 150, FlowerColor.BLUE, 200);
